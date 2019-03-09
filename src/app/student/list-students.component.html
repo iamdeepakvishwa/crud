@@ -1,0 +1,64 @@
+<div class="panel panel-primary" *ngFor="let students of student">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{students.name}}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="col-xs-10">
+      <div class="row">
+        <div class="col-xs-4">
+          <img [src]="students.photoPath" />
+        </div>
+        <div class="col-xs-8">
+          <div class="row">
+            <div class="col-xs-6">
+              Gender
+            </div>
+            <div class="col-xs-6">
+              : {{students.gender}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              Date Of Birth
+            </div>
+            <div class="col-xs-6">
+              : {{students.dateOfBirth}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              Email
+            </div>
+            <div class="col-xs-6">
+              : {{students.email}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              Phone
+            </div>
+            <div class="col-xs-6">
+              : {{students.phonNumber}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              Department
+            </div>
+            <div class="col-xs-6">
+              : {{students.department}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              isActice
+            </div>
+            <div class="col-xs-6">
+              : {{students.isActive}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
