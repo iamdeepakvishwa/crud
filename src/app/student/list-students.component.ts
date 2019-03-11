@@ -44,7 +44,7 @@ export class ListStudentsComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }

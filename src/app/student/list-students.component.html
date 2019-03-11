@@ -1,12 +1,12 @@
-<div class="panel panel-primary" *ngFor="let students of student">
+<div class="panel panel-primary" *ngFor="let student of students">
   <div class="panel-heading">
-    <h3 class="panel-title">{{students.name}}</h3>
+    <h3 class="panel-title">{{student.name}}</h3>
   </div>
   <div class="panel-body">
     <div class="col-xs-10">
       <div class="row">
         <div class="col-xs-4">
-          <img [src]="students.photoPath" />
+          <img [src]="student.photoPath" />
         </div>
         <div class="col-xs-8">
           <div class="row">
@@ -14,7 +14,7 @@
               Gender
             </div>
             <div class="col-xs-6">
-              : {{students.gender}}
+              : {{student.gender}}
             </div>
           </div>
           <div class="row">
@@ -22,7 +22,7 @@
               Date Of Birth
             </div>
             <div class="col-xs-6">
-              : {{students.dateOfBirth}}
+              : {{student.dateOfBirth}}
             </div>
           </div>
           <div class="row">
@@ -30,7 +30,7 @@
               Email
             </div>
             <div class="col-xs-6">
-              : {{students.email}}
+              : {{student.email}}
             </div>
           </div>
           <div class="row">
@@ -38,7 +38,7 @@
               Phone
             </div>
             <div class="col-xs-6">
-              : {{students.phonNumber}}
+              : {{student.phonNumber}}
             </div>
           </div>
           <div class="row">
@@ -46,7 +46,7 @@
               Department
             </div>
             <div class="col-xs-6">
-              : {{students.department}}
+              : {{student.department}}
             </div>
           </div>
           <div class="row">
@@ -54,7 +54,7 @@
               isActice
             </div>
             <div class="col-xs-6">
-              : {{students.isActive}}
+              : {{student.isActive}}
             </div>
           </div>
         </div>
