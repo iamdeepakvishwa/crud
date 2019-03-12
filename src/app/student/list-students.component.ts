@@ -11,14 +11,14 @@ export class ListStudentsComponent implements OnInit {
   students : student[] = [
     {
       id: 1,
-      name: 'Mark',
-      gender: 'male',
-      email: 'mark@example.com',
+      name: "Mark",
+      gender: "male",
+      email: "mark@example.com",
       phoneNumber : 9598494868,
       dateOfBirth : new Date(11/08/1999),
-      dapartment: 'Computer Science',
+      dapartment: "Computer Science",
       isActive: true,
-      photoPath : 'assets/images/mark.png',
+      photoPath : "assets/images/mark.png",
     },
     {
       id: 2,
